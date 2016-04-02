@@ -381,6 +381,7 @@ config.roles = {
 		],
 		canGrantRoles: [
       'dev',
+      'owner',
 			'coowner',
 			'supervisor',
 			'bot',
