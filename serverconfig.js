@@ -41,8 +41,8 @@ config.room = {
 	lastmsglimit: 6, // How many messages a user can see after joining.
 	signupcd: 0, // How many miliseconds the user cannot do certain things after they sign up.
 	allowemojis: true,
-	allowrecovery: false,
-	recaptcha: false,
+  allowrecovery: false,
+	recaptcha: true,
 	queue: {
 		cycle: true,
 		lock: false,
@@ -54,7 +54,7 @@ config.room = {
 	},
 	email: {
 		confirmation: false, // Whether to force user to confirm his email address before he is able to do anything
-		sender, 'your@email.tld',
+		sender: 'your@email.tld',
 		/*
 			description: Email server setup, please refer to https://github.com/nodemailer/nodemailer documention on what the options are, supports xOAuth 2.0
 			default: {}
