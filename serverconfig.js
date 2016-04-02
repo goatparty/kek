@@ -42,7 +42,7 @@ config.room = {
 	signupcd: 0, // How many miliseconds the user cannot do certain things after they sign up.
 	allowemojis: true,
 	allowrecovery: false,
-	recaptcha: false,
+	recaptcha: true,
 	queue: {
 		cycle: true,
 		lock: false,
@@ -54,7 +54,7 @@ config.room = {
 	},
 	email: {
 		confirmation: false, // Whether to force user to confirm his email address before he is able to do anything
-		sender: 'your@email.tld',
+		sender, 'your@email.tld',
 		/*
 			description: Email server setup, please refer to https://github.com/nodemailer/nodemailer documention on what the options are, supports xOAuth 2.0
 			default: {}
@@ -76,8 +76,8 @@ config.apis = {
 		key: '',
 	},
 	reCaptcha: {
-		key: '',
-		secret: '',
+		key: '6LesaxwTAAAAACUqeK0endUa0KmWCVHhuMPx2Z01',
+		secret: '6LesaxwTAAAAAEHNRmboCCUtp-WRG2GSiBbY_cVV',
 	},
 	musiqpad: {
 		key: '826a46c5-6a87-c37a-77ba-83b3a9dabbe7', // This is required in order for your socket to update the musiqpad lounge. Request an API Key here: https://musiqpad.com/lounge
