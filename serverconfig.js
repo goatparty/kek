@@ -358,7 +358,9 @@ config.roles = {
 			'playlist.rename',
 			'playlist.import',
 		],
-		canGrantRoles: [],
+		canGrantRoles: [
+      'Owner'
+    ],
 	},
 	default: { // REQUIRED ROLE
 		title: 'Default',
