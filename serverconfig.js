@@ -376,7 +376,8 @@ config.roles = {
 			'playlist.create',
 			'playlist.delete',
 			'playlist.rename',
-			'playlist.import'
+			'playlist.import',
+      'room.grantroles'
 		],
 		canGrantRoles: [
       'Owner'
