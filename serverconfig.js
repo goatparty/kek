@@ -42,7 +42,7 @@ config.room = {
 	signupcd: 0, // How many miliseconds the user cannot do certain things after they sign up.
 	allowemojis: true,
 	allowrecovery: false,
-	recaptcha: true,
+	recaptcha: false,
 	queue: {
 		cycle: true,
 		lock: false,
