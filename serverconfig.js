@@ -2,12 +2,12 @@ var fs = require('fs');
 var config = {};
 
 // IMPORTANT: In order to be able to launch the musiqpad server, set this to true
-config.setup = false;
+config.setup = true;
 
 /*
  Set this flag to false to disable web server hosting or true to enable web server hosting.
  This is useful if you want to host static files in another web server such as nginx.
- 
+
  If you are only hosting the socket and want musiqpad to host the frontend set this to false.
 */
 config.hostWebserver = false;
@@ -16,7 +16,7 @@ config.socketServer = {
 	host: '',     // Host name or IP that the socket server is located at. Leave blank to bind to process IP address
 	port: '8082', // Leave blank to bind to process PORT
 };
-	
+
 config.webServer = {
 	address: '', // Leave blank to bind to process IP address
 	port: '8080' // Leave blank to bind to process PORT
@@ -68,7 +68,7 @@ config.room = {
 };
 
 config.apis = {
-	YT: { 
+	YT: {
 		key: '', // Required api key in order for YouTube search to work.
 		restrictSearchToMusic: false,
 	},
@@ -125,7 +125,7 @@ config.db = {
 	'room.banUser': Ability to ban and unban users
 	'room.ratelimit.bypass': Will bypass ratelimit
     'room.whois': Possibility to request additional information about a user
-	
+
 	NOTE: Changing the PROPERTY NAME will break role assignments.  Title can be changed
 	without breaking things, but property name must stay the same.
 */
