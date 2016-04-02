@@ -244,7 +244,7 @@ config.roles = {
 			'default'
 		],
 		mention: 'devs',
-    badge:'mdi-worker',
+    badge:'worker',
 	},
 	coowner: {
 		title: 'Co-owner',
