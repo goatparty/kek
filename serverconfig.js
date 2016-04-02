@@ -22,7 +22,7 @@ config.webServer = {
 	port: '8080' // Leave blank to bind to process PORT
 };
 
-config.useSSL = true;
+config.useSSL = false;
 
 config.certificate = {
 //	key: fs.readFileSync('../cert.key'),
