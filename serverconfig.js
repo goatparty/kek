@@ -358,9 +358,7 @@ config.roles = {
 			'playlist.rename',
 			'playlist.import',
 		],
-		canGrantRoles: [
-
-    ],
+		canGrantRoles: [],
 	},
 	default: { // REQUIRED ROLE
 		title: 'Default',
@@ -377,17 +375,8 @@ config.roles = {
 			'playlist.delete',
 			'playlist.rename',
 			'playlist.import',
-      'room.grantroles',
 		],
-		canGrantRoles: [
-      'dev',
-      'owner',
-			'coowner',
-			'supervisor',
-			'bot',
-			'regular',
-			'default'
-    ],
+		canGrantRoles: [],
 	}
 };
 
