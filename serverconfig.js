@@ -10,7 +10,7 @@ config.setup = true;
 
  If you are only hosting the socket and want musiqpad to host the frontend set this to false.
 */
-config.hostWebserver = false;
+config.hostWebserver = true;
 
 config.socketServer = {
 	host: '',     // Host name or IP that the socket server is located at. Leave blank to bind to process IP address
@@ -31,7 +31,7 @@ config.certificate = {
 
 config.room = {
 	name: 'Pad Name', // This is your pad name. It is shown as a user friendly description on the lounge and tab name.
-	slug: 'this-is-your-slug', // Slugs are used to identify your pad when connecting to musiqpad! This slug must be unique and all in lowecase.
+	slug: 'kexodus', // Slugs are used to identify your pad when connecting to musiqpad! This slug must be unique and all in lowecase.
 	greet: 'Welcome to musiqpad!',
 	//bg: null, // Background image file path. Accepts external images. If this is undefined the default background will be used.
 	maxCon: 0,
@@ -80,7 +80,7 @@ config.apis = {
 		secret: '',
 	},
 	musiqpad: {
-		key: '', // This is required in order for your socket to update the musiqpad lounge. Request an API Key here: https://musiqpad.com/lounge
+		key: '826a46c5-6a87-c37a-77ba-83b3a9dabbe7', // This is required in order for your socket to update the musiqpad lounge. Request an API Key here: https://musiqpad.com/lounge
 		sendLobbyStats: true,
 	},
 };
