@@ -69,7 +69,7 @@ config.room = {
 
 config.apis = {
 	YT: {
-		key: 'AIzaSyDzYi2yq0ZDQnvi2qebClupGA-wEU1dvtg', // Required api key in order for YouTube search to work.
+		key: 'AIzaSyA9PIsRSkZx2oPN05UB4aEXzmGOyahbS0E', // Required api key in order for YouTube search to work.
 		restrictSearchToMusic: false,
 	},
 	SC: {
