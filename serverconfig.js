@@ -377,10 +377,15 @@ config.roles = {
 			'playlist.delete',
 			'playlist.rename',
 			'playlist.import',
-      'room.grantroles'
+      'room.grantroles',
 		],
 		canGrantRoles: [
-      'Owner'
+      'dev',
+			'coowner',
+			'supervisor',
+			'bot',
+			'regular',
+			'default'
     ],
 	}
 };
