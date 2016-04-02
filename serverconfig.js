@@ -35,7 +35,7 @@ config.room = {
 	greet: 'Welcome to musiqpad!',
 	//bg: null, // Background image file path. Accepts external images. If this is undefined the default background will be used.
 	maxCon: 0,
-	ownerEmail: 'ee.b.miller@gmail.com', // This needs to be set, then the server restarted to take effect.
+	ownerEmail: 'goat.partie@gmail.com', // This needs to be set, then the server restarted to take effect.
 	guestCanSeeChat: true,
 	bannedCanSeeChat: false,
 	lastmsglimit: 6, // How many messages a user can see after joining.
@@ -69,7 +69,7 @@ config.room = {
 
 config.apis = {
 	YT: {
-		key: '', // Required api key in order for YouTube search to work.
+		key: 'AIzaSyDzYi2yq0ZDQnvi2qebClupGA-wEU1dvtg', // Required api key in order for YouTube search to work.
 		restrictSearchToMusic: false,
 	},
 	SC: {
