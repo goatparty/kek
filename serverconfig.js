@@ -33,7 +33,7 @@ config.room = {
 	name: 'kexodus.fm', // This is your pad name. It is shown as a user friendly description on the lounge and tab name.
 	slug: 'kexodus', // Slugs are used to identify your pad when connecting to musiqpad! This slug must be unique and all in lowecase.
 	greet: 'wb',
-	bg: 'https://media.giphy.com/media/oSYflamt3IEjm/giphy.gif', // Background image file path. Accepts external images. If this is undefined the default background will be used.
+	bg: 'http://i.imgur.com/5aJAD4Z.jpg', // Background image file path. Accepts external images. If this is undefined the default background will be used.
 	maxCon: 0,
 	ownerEmail: 'goat.partie@gmail.com', // This needs to be set, then the server restarted to take effect.
 	guestCanSeeChat: true,
