@@ -1703,6 +1703,10 @@
 				var e = 'marcel';
 				MP.emotes['Basic'][e] = MP.emotes['Basic'][e] || { url: 'http://static.sched.org/a2/836285/avatar.jpg.320x320px.jpg?900/', };
 			 }).done(function(){
+				//wank emoji
+				var e = 'wank';
+				MP.emotes['Basic'][e] = MP.emotes['Basic'][e] || { url: 'http://i.imgur.com/X2bDPpm.png', };
+			 }).done(function(){
 	            //TastyCat
 			 	$.getJSON("https://emotes.tastycat.org/emotes-full.json", function(data) {
 			 		for(var e in data.emotes)
