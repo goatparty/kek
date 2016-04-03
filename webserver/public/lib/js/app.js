@@ -1694,9 +1694,14 @@
 						for(var ee in data[e].aliases_ascii)
 							MP.emotes_ascii[data[e].aliases_ascii[ee]] = MP.emotes_ascii[data[e].aliases_ascii[ee]] || e;
 				}
+				
 				//Trollface emote
-				var e = 'trollface';
-				MP.emotes['Basic'][e] = MP.emotes['Basic'][e] || { url: 'https://raw.githubusercontent.com/Ranks/emojify.js/master/dist/images/basic/' + e + '.png', };
+				//var e = 'trollface';
+				//MP.emotes['Basic'][e] = MP.emotes['Basic'][e] || { url: 'https://raw.githubusercontent.com/Ranks/emojify.js/master/dist/images/basic/' + e + '.png', };
+			 //}).done(function(){
+				//marcel emoji
+				var e = 'marcel';
+				MP.emotes['Basic'][e] = MP.emotes['Basic'][e] || { url: 'http://static.sched.org/a2/836285/avatar.jpg.320x320px.jpg?900/', };
 			 }).done(function(){
 	            //TastyCat
 			 	$.getJSON("https://emotes.tastycat.org/emotes-full.json", function(data) {
