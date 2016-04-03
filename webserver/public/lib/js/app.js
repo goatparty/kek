@@ -6579,11 +6579,11 @@
 	var loadingText = [
 		"having a wank...",
 		"fingerbanging a lass...",
-		"cleaning up taylor swift's pee...",
+		"pissing on taylor swift...",
 		"cucking babewaves...",
 		"harassing marcel..",
 		"doxxing tangy...",
-		"wanking a 3rd time..."
+		"wanking a third time..."
 	];
 
 	//Loading animation start
