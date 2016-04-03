@@ -132,7 +132,7 @@ config.db = {
 
 // Defines the order that roles will appear on the user list
 // PROPERTY names.  NOT title. (case-sensitive)
-config.roleOrder = ['dev', 'owner', 'coowner', 'supervisor', 'bot', 'regular', 'default'];
+config.roleOrder = ['dev', 'owner', 'coowner', 'supervisor', 'bot', 'regular', 'weeb','default'];
 
 
 // Defines which roles are 'staff' members
@@ -241,6 +241,7 @@ config.roles = {
 			'supervisor',
 			'bot',
 			'regular',
+      'weeb',
 			'default'
 		],
 		mention: 'devs',
@@ -360,6 +361,26 @@ config.roles = {
 			'playlist.import',
 		],
 		canGrantRoles: [],
+	},
+  weeb: {
+		title: 'fucking weeb',
+		showtitle: false,
+		style: {
+			'color': '#009CDD'
+		},
+		permissions: [
+			'djqueue.join',
+			'djqueue.joinlocked',
+			'djqueue.leave',
+			'chat.send',
+			'djqueue.skip.self',
+			'playlist.create',
+			'playlist.delete',
+			'playlist.rename',
+			'playlist.import',
+		],
+		canGrantRoles: [],
+    badge:'emoticon-sad',
 	},
 	default: { // REQUIRED ROLE
 		title: 'Default',
