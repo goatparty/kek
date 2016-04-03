@@ -137,7 +137,7 @@ config.roleOrder = ['dev', 'owner', 'coowner', 'supervisor', 'bot', 'regular', '
 
 // Defines which roles are 'staff' members
 // PROPERTY names.  NOT title. (case-sensitive)
-config.staffRoles = ['dev', 'owner', 'coowner', 'supervisor', 'bot'];
+config.staffRoles = ['dev', 'owner', 'coowner', 'supervisor', 'bot','weeb'];
 
 
 /*
