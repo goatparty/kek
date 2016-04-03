@@ -19,7 +19,7 @@ config.socketServer = {
 
 config.webServer = {
 	address: '', // Leave blank to bind to process IP address
-	port: '80' // Leave blank to bind to process PORT
+	port: '443' // Leave blank to bind to process PORT
 };
 
 config.useSSL = true;
