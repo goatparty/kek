@@ -22,11 +22,11 @@ config.webServer = {
 	port: '80' // Leave blank to bind to process PORT
 };
 
-config.useSSL = false;
+config.useSSL = true;
 
 config.certificate = {
-//	key: fs.readFileSync('../cert.key'),
-//	cert: fs.readFileSync('../cert.crt')
+key: fs.readFileSync('/home/ubuntu/keys/domain.key'),
+cert: fs.readFileSync('/home/ubuntu/keys/domain.crt')
 };
 
 config.room = {
