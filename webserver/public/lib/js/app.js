@@ -1705,7 +1705,7 @@
 			 }).done(function(){
 				//wank emoji
 				var e = 'wank';
-				MP.emotes['Basic'][e] = MP.emotes['Basic'][e] || { url: 'http://i.imgur.com/X2bDPpm.png', };
+				MP.emotes['Basic'][e] = MP.emotes['Basic'][e] || { url: 'http://imgur.com/srxVlzz', };
 			 }).done(function(){
 	            //TastyCat
 			 	$.getJSON("https://emotes.tastycat.org/emotes-full.json", function(data) {
