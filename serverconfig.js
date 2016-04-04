@@ -62,8 +62,8 @@ config.room = {
 		options: {},
 	},
 	description: '\
-				 <h1>Pad Description</h1>\
-				 Here you can put anything you want in HTML!\
+				 <h1>Description</h1>\
+				 Welcome to kexodus. Where all the lads have class wanks to hot bitches with hot tits and fannies.\
 				 ',
 };
 
@@ -132,12 +132,12 @@ config.db = {
 
 // Defines the order that roles will appear on the user list
 // PROPERTY names.  NOT title. (case-sensitive)
-config.roleOrder = ['dev', 'owner', 'coowner', 'supervisor', 'bot', 'regular', 'weeb','default'];
+config.roleOrder = ['dev', 'top lad', 'lad', 'deep sea diver-looking cunt', 'bot', 'regular', 'weeb','default'];
 
 
 // Defines which roles are 'staff' members
 // PROPERTY names.  NOT title. (case-sensitive)
-config.staffRoles = ['dev', 'owner', 'coowner', 'supervisor', 'bot','weeb'];
+config.staffRoles = ['dev', 'top lad', 'lad', 'deep sea diver-looking cunt', 'bot','weeb'];
 
 
 /*

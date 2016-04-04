@@ -4241,7 +4241,7 @@
 				  {
 				    element: ".btn-logo",
 				    placement: "bottom",
-				    content: "Click the musiqpad logo to show playlists, settings, pad dj history, and logout. Pro tip: use ESC key as a shortcut!",
+				    content: "Click the kexodus logo to show playlists, settings, pad dj history, and logout. Pro tip: use ESC key as a shortcut!",
 				    onShown: function() {
 				    	$('.popover.tour .modal-controls div[data-role="prev"]').hide();
 				    }
@@ -4775,12 +4775,12 @@
 					break;
 				case API.DATA.EVENTS.DJ_QUEUE_SKIP:
 					var user = MP.findUser(data.data.uid);
-					MP.addMessage( (user ? '<span data-uid="'+ user.uid +'" class="uname" style="' + MP.makeUsernameStyle(user.role) + '">' + user.un + '</span>' : 'Unknown ') + 'has skipped', 'system');
+					MP.addMessage( (user ? '<span data-uid="'+ user.uid +'" class="uname" style="' + MP.makeUsernameStyle(user.role) + '">' + user.un + '</span>' : 'Unknown ') + 'doesn\'t want to hear this shit', 'system');
 					break;
 				case API.DATA.EVENTS.DJ_QUEUE_MOD_SKIP:
 					var user = MP.findUser(data.data.mid);
 					var lsmsg = (typeof data.data.lockSkipPosition == 'number' ? (data.data.lockSkipPosition == 0 ? ' and repositioned the DJ to the booth' : ' and repositioned the DJ to spot ' + data.data.lockSkipPosition + ' in the DJ queue') : '');
-					MP.addMessage( (user ? '<span data-uid="'+ user.uid +'" class="uname" style="' + MP.makeUsernameStyle(user.role) + '">' + user.un + '</span>' : 'Unknown' ) + 'has mod skipped' + lsmsg, 'system');
+					MP.addMessage( (user ? '<span data-uid="'+ user.uid +'" class="uname" style="' + MP.makeUsernameStyle(user.role) + '">' + user.un + '</span>' : 'Unknown' ) + 'doesn\'t want to hear this shit' + lsmsg, 'system');
 					break;
 				case API.DATA.EVENTS.VOTE_UPDATE:
 					var vote = data.data;
