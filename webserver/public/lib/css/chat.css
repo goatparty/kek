@@ -59,6 +59,7 @@
     padding: 6px 10px;
     animation: fadein 0.25s;
     word-wrap: break-word;
+    border-top: .5px solid #444A59;
 }
 .cm:nth-child(even):not(.mention):not(.broadcast) {
     background: rgba(28, 28, 31, 0.4);
@@ -66,6 +67,8 @@
 .room-greet {
     border: none;
     background: rgba(167,125,194,0.2);
+    background-image: url("http://i.imgur.com/DjzgEFW.jpg");
+    background-size: 100% 100%;
 }
 .greet-uname {
     font-weight: bold;

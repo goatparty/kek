@@ -23,6 +23,8 @@
     background-image: url('/pads/lib/img/mqp.png');
     background-color: rgba(10, 10, 10, 0.9);
     border:1px solid #444A59;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
 }
 .video {
     width:854px;
@@ -146,6 +148,7 @@
 }
 .btn-downvote {
     color: #C8303E;
+    border-right:1px solid #444A59;
 }
 .btn-downvote.active {
     color: #1C1C1F;
@@ -156,12 +159,14 @@
 }
 .btn-snooze {
     color: #925AFF;
+    border-right: 1px solid #444A59;
 }
 .btn-snooze:not(.active):hover {
     background: rgba(146, 90, 255, .25);
 }
 .btn-join {
     color: #F46B40;
+    border-right: 1px solid #444A59;
 }
 .btn-join:not(.active):hover {
     background: rgba(244, 107, 64, .25);
@@ -173,6 +178,7 @@
 .btn-grab {
     color: #925AFF;
     position: relative;
+    border-right: 1px solid #444A59;
 }
 .btn-grab.active, .btn-snooze.active {
     color: #1C1C1F;
