@@ -1679,14 +1679,14 @@
 			$.getJSON("https://raw.githubusercontent.com/Ranks/emojione/master/emoji.json", function(data) {
 				for(var e in data){
 					//MP.emotes[e] = MP.emotes[e] || "https://raw.githubusercontent.com/Ranks/emojify.js/master/dist/images/basic/" + e + ".png";
-					MP.emotes["Basic"][e] = MP.emotes["Basic"][e] || { url: "https://raw.githubusercontent.com/Ranks/emojione/master/assets/png/" + data[e].unicode + ".png" };
+					MP.emotes["Basic"][e] = MP.emotes["Basic"][e] || { url: "https://raw.githubusercontent.com/goatparty/emojis/master/png/" + data[e].unicode + ".png" };
 
 					//Regular aliases
 					if(data[e].aliases)
 						for(var ee in data[e].aliases){
 							ee = data[e].aliases[ee].slice(1, -1);
 							//MP.emotes[ee] = MP.emotes[ee] || "https://raw.githubusercontent.com/Ranks/emojify.js/master/dist/images/basic/" + e + ".png";
-							MP.emotes["Basic"][ee] = MP.emotes["Basic"][ee] || { url: "https://raw.githubusercontent.com/Ranks/emojione/master/assets/png/" + data[e].unicode + ".png", style: 'max-width: 24px; max-height: 24px;', };
+							MP.emotes["Basic"][ee] = MP.emotes["Basic"][ee] || { url: "https://raw.githubusercontent.com/goatparty/emojis/master/png/" + data[e].unicode + ".png", style: 'max-width: 24px; max-height: 24px;', };
 						}
 
 					//ASCII aliases
